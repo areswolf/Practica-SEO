@@ -1,0 +1,16 @@
+# node modules
+node_modules/
+
+# macOS files
+.DS_Store
+
+# WebStorm
+.idea
+
+# gulp
+gulpfile.js
+
+# SparREST stuff
+db/
+uploads
+server.py
