@@ -29,33 +29,42 @@
                         <input type="search" class="form-control" placeholder="Search">
                     </div>
                 </form>
-                <ul class="nav navbar-nav navbar-right">
-                    <li class="">
-                        <a href="#">For you</a>
+
+                <ul class="nav navbar-nav navbar-right" itemscope itemtype="http://schema.org/BreadcrumbList">
+                    <li class="" itemprop="itemListElement" itemscope itemtype="http://schema.org/ListItem">
+                        <a itemprop="item" href="#"><span itemprop="name">For you</span></a>
+                        <meta itemprop="position" content="1" />
                     </li>
-                    <li class="">
-                        <a href="#">Sports</a>
+                    <li class="" itemprop="itemListElement" itemscope itemtype="http://schema.org/ListItem">
+                        <a itemprop="item" href="#"><span itemprop="name">Sports</span></a>
+                        <meta itemprop="position" content="2" />
                     </li>
-                    <li class="">
-                        <a href="#">Technology</a>
+                    <li class="" itemprop="itemListElement" itemscope itemtype="http://schema.org/ListItem">
+                        <a itemprop="item" href="#"><span itemprop="name">Technology</span></a>
+                        <meta itemprop="position" content="3" />
                     </li>
-                    <li class="hidden-sm">
-                        <a href="#">Development</a>
+                    <li class="hidden-sm" itemprop="itemListElement" itemscope itemtype="http://schema.org/ListItem">
+                        <a itemprop="item" href="#"><span itemprop="name">Development</span></a>
+                        <meta itemprop="position" content="4" />
                     </li>
-                    <li class="hidden-xs hidden-sm">
-                        <a href="#">Star Wars</a>
+                    <li class="hidden-xs hidden-sm" itemprop="itemListElement" itemscope itemtype="http://schema.org/ListItem">
+                        <a itemprop="item" href="#"><span itemprop="name">Star Wars</span></a>
+                        <meta itemprop="position" content="5" />
                     </li>
-                    <li class="hidden-xs hidden-sm hidden-md">
-                        <a href="#">Arts</a>
+                    <li class="hidden-xs hidden-sm hidden-md" itemprop="itemListElement" itemscope itemtype="http://schema.org/ListItem">
+                        <a itemprop="item" href="#"><span itemprop="name">Arts</span></a>
+                        <meta itemprop="position" content="6" />
                     </li>
-                    <li class="hidden-xs hidden-sm hidden-md">
-                        <a href="#">Economy</a>
+                    <li class="hidden-xs hidden-sm hidden-md" itemprop="itemListElement" itemscope itemtype="http://schema.org/ListItem">
+                        <a itemprop="item" href="#"><span itemprop="name">Economy</span></a>
+                        <meta itemprop="position" content="7" />
                     </li>
-                    <li class="hidden-xs hidden-sm hidden-md">
-                        <a href="#">Humor</a>
+                    <li class="hidden-xs hidden-sm hidden-md" itemprop="itemListElement" itemscope itemtype="http://schema.org/ListItem">
+                        <a itemprop="item" href="#"><span itemprop="name">Humor</span></a>
+                        <meta itemprop="position" content="8" />
                     </li>
-                    <li>
-                        <a href="#">More</a>
+                    <li itemprop="itemListElement" itemscope itemtype="http://schema.org/ListItem">
+                        <a itemprop="item" href="#"><span itemprop="name">More</span></a>
                     </li>
                     <li>
                         <a href="#">
@@ -70,11 +79,12 @@
 <main>
     <div class="container">
         <section class="articles">
+
             <article class="article">
-                <div class="row" itemscope itemtype="http://schema.org/Article">
-                    <div class="col-xs-12 col-md-6 col-xs-p-0" itemscope itemtype="https://schema.org/sport">
+                <div class="row">
+                    <div class="col-xs-12 col-md-6 col-xs-p-0">
                         <div class="img-wrapper">
-                            <a itemprop="url" href="detail.html"
+                            <a href="detail.html"
                                title="With Dodgers, Dave Roberts Has Another Chance to Haunt the Yankees">
                                 <picture>
                                     <source srcset="dist/img/contents/baseball-xs.jpg 375w, dist/img/contents/baseball-sm.jpg 768w"
@@ -90,11 +100,11 @@
                             </a>
                         </div>
                     </div>
-                    <div class="col-xs-12 col-md-6" itemscope itemtype="https://schema.org/sport">
+                    <div class="col-xs-12 col-md-6">
                         <header class="header">
                             <div class="row">
                                 <div class="col-xs-12">
-                                    <a itemprop="url" href="detail.html"
+                                    <a href="detail.html"
                                        title="With Dodgers, Dave Roberts Has Another Chance to Haunt the Yankees">
                                         <h1 class="title">With Dodgers, Dave Roberts Has Another Chance to Haunt the
                                             Yankees</h1>
@@ -114,7 +124,7 @@
                                                 <span class="fa fa-heart-o"></span>
                                                 <span class="fa fa-circle-o-notch fa-spin"></span>
                                             </button>
-                                            <a itemprop="url" href="detail.html#comments" class="btn btn-default comments-count"
+                                            <a href="detail.html#comments" class="btn btn-default comments-count"
                                                data-article="1"
                                                data-toggle="tooltip" data-placement="bottom" title="View 45 comments">
                                                 <span class="fa fa-comments"></span>
@@ -122,7 +132,7 @@
                                             </a>
                                         </div>
                                         <div class="metadata">
-                                            <span class="author" rel="author" itemprop="author" itemtype="http://schema.org/Person">Billy Witz</span>,
+                                            <span class="author" rel="author">Billy Witz</span>,
                                             <time class="date" datetime="2016-09-23T07:42:40+02:00"
                                                   data-toggle="tooltip" data-placement="bottom"
                                                   title="12 Sept 2016, 01:29">
@@ -146,10 +156,10 @@
             </article>
 
             <article class="article">
-                <div class="row" itemscope itemtype="http://schema.org/Article">
-                    <div class="col-xs-12 col-md-6 col-xs-p-0" itemscope itemtype="https://schema.org/sport">
+                <div class="row">
+                    <div class="col-xs-12 col-md-6 col-xs-p-0">
                         <div class="img-wrapper">
-                            <a itemprop="url" href="detail.html"
+                            <a href="detail.html"
                                title="With Dodgers, Dave Roberts Has Another Chance to Haunt the Yankees">
                                 <picture>
                                     <source srcset="dist/img/contents/coffee-xs.jpg 375w, dist/img/contents/coffee-sm.jpg 768w"
@@ -165,11 +175,11 @@
                             </a>
                         </div>
                     </div>
-                    <div class="col-xs-12 col-md-6" itemscope itemtype="http://health-lifesci.schema.org/Toxicologic">
+                    <div class="col-xs-12 col-md-6">
                         <header class="header">
                             <div class="row">
                                 <div class="col-xs-12">
-                                    <a itemprop="url" href="detail.html"
+                                    <a href="detail.html"
                                        title="Used Coffee Grounds Can Clean Contaminated Water ">
                                         <h1 class="title">Used Coffee Grounds Can Clean Contaminated Water </h1>
                                     </a>
@@ -196,7 +206,7 @@
                                             </a>
                                         </div>
                                         <div class="metadata">
-                                            <span class="author" rel="author" itemprop="author" itemtype="http://schema.org/Person">Knvul Sheikh</span>,
+                                            <span class="author" rel="author">Knvul Sheikh</span>,
                                             <time class="date" datetime="2016-09-22T22:40:06-00:00"
                                                   data-toggle="tooltip" data-placement="bottom"
                                                   title="22 Sept 2016, 10:40">
@@ -219,10 +229,10 @@
             </article>
 
             <article class="article">
-                <div class="row" itemscope itemtype="http://schema.org/Article">
-                    <div class="col-xs-12 col-md-6 col-xs-p-0" itemscope itemtype="https://schema.org/TheaterEvent">
+                <div class="row">
+                    <div class="col-xs-12 col-md-6 col-xs-p-0">
                         <div class="img-wrapper">
-                            <a itemprop="url" href="detail.html"
+                            <a href="detail.html"
                                title="Let’s Dance: ‘Swan Lake,’ ‘Fire or Ice,’ ‘Ailey II’ This Fall">
                                 <picture>
                                     <source srcset="dist/img/contents/dance-xs.jpg 375w, dist/img/contents/dance-sm.jpg 768w"
@@ -238,7 +248,7 @@
                             </a>
                         </div>
                     </div>
-                    <div class="col-xs-12 col-md-6" itemscope itemtype="https://schema.org/TheaterEvent">
+                    <div class="col-xs-12 col-md-6">
                         <header class="header">
                             <div class="row">
                                 <div class="col-xs-12">
@@ -270,7 +280,7 @@
                                             </a>
                                         </div>
                                         <div class="metadata">
-                                            <span class="author" rel="author" itemprop="author" itemtype="http://schema.org/Person">Christopher Arnott</span>,
+                                            <span class="author" rel="author">Christopher Arnott</span>,
                                             <time class="date" datetime="2016-09-16T12:10:00-00:00"
                                                   data-toggle="tooltip" data-placement="bottom"
                                                   title="16 Sept 2016, 12:10">
@@ -301,10 +311,10 @@
             </article>
 
             <article class="article">
-                <div class="row" itemscope itemtype="http://schema.org/Article">
-                    <div class="col-xs-12 col-md-6 col-xs-p-0" itemscope itemtype="https://schema.org/jobTitle">
+                <div class="row">
+                    <div class="col-xs-12 col-md-6 col-xs-p-0">
                         <div class="img-wrapper">
-                            <a itemprop="url" href="detail.html"
+                            <a href="detail.html"
                                title="Runnable wants to make developers more productive">
                                 <picture>
                                     <source srcset="dist/img/contents/development-xs.jpg 375w, dist/img/contents/development-sm.jpg 768w"
@@ -320,11 +330,11 @@
                             </a>
                         </div>
                     </div>
-                    <div class="col-xs-12 col-md-6" itemscope itemtype="https://schema.org/jobTitle">
+                    <div class="col-xs-12 col-md-6">
                         <header class="header">
                             <div class="row">
                                 <div class="col-xs-12">
-                                    <a itemprop="url" href="detail.html"
+                                    <a href="detail.html"
                                        title="Runnable wants to make developers more productive">
                                         <h1 class="title">Runnable wants to make developers more productive</h1>
                                     </a>
@@ -351,7 +361,7 @@
                                             </a>
                                         </div>
                                         <div class="metadata">
-                                            <span class="author" rel="author" itemprop="author" itemtype="http://schema.org/Person">Frederic Lardinois</span>,
+                                            <span class="author" rel="author">Frederic Lardinois</span>,
                                             <time class="date" datetime="2016-09-11T13:30:00-00:00"
                                                   data-toggle="tooltip" data-placement="bottom"
                                                   title="11 Sept 2016, 13:30">
@@ -379,10 +389,10 @@
             </article>
 
             <article class="article">
-                <div class="row" itemscope itemtype="http://schema.org/Article">
-                    <div class="col-xs-12 col-md-6 col-xs-p-0" itemscope itemtype="https://schema.org/Offer">
+                <div class="row">
+                    <div class="col-xs-12 col-md-6 col-xs-p-0">
                         <div class="img-wrapper">
-                            <a itemprop="url" href="detail.html"
+                            <a href="detail.html"
                                title="Discounts Spur More People to Eat Fruit, Veggies">
                                 <picture>
                                     <source srcset="dist/img/contents/fruits-xs.jpg 375w, dist/img/contents/fruits-sm.jpg 768w"
@@ -398,7 +408,7 @@
                             </a>
                         </div>
                     </div>
-                    <div class="col-xs-12 col-md-6" itemscope itemtype="https://schema.org/Offer">
+                    <div class="col-xs-12 col-md-6">
                         <header class="header">
                             <div class="row">
                                 <div class="col-xs-12">
@@ -429,7 +439,7 @@
                                             </a>
                                         </div>
                                         <div class="metadata">
-                                            <span class="author" rel="author" itemprop="author" itemtype="http://schema.org/Person">Steven Reinberg</span>,
+                                            <span class="author" rel="author">Steven Reinberg</span>,
                                             <time class="date" datetime="2016-09-22T22:22:00-00:00"
                                                   data-toggle="tooltip" data-placement="bottom"
                                                   title="22 Sept 2016, 22:22">
@@ -455,10 +465,10 @@
             </article>
 
             <article class="article">
-                <div class="row" itemscope itemtype="http://schema.org/Article">
-                    <div class="col-xs-12 col-md-6 col-xs-p-0" itemscope itemtype="https://schema.org/Offer">
+                <div class="row">
+                    <div class="col-xs-12 col-md-6 col-xs-p-0">
                         <div class="img-wrapper">
-                            <a itemprop="url" href="detail.html"
+                            <a href="detail.html"
                                title="Discounts Spur More People to Eat Fruit, Veggies">
                                 <picture>
                                     <source srcset="dist/img/contents/graffiti-xs.jpg 375w, dist/img/contents/graffiti-sm.jpg 768w"
@@ -474,7 +484,7 @@
                             </a>
                         </div>
                     </div>
-                    <div class="col-xs-12 col-md-6" itemscope itemtype="https://schema.org/VisualArtsEvent">
+                    <div class="col-xs-12 col-md-6">
                         <header class="header">
                             <div class="row">
                                 <div class="col-xs-12">
@@ -506,7 +516,7 @@
                                             </a>
                                         </div>
                                         <div class="metadata">
-                                            <span class="author" rel="author" itemprop="author" itemtype="http://schema.org/Person">Kerry Steinhofer</span>,
+                                            <span class="author" rel="author">Kerry Steinhofer</span>,
                                             <time class="date" datetime="2016-09-22T22:22:00-00:00"
                                                   data-toggle="tooltip" data-placement="bottom"
                                                   title="22 Sept 2016, 22:22">
@@ -529,10 +539,10 @@
             </article>
 
             <article class="article">
-                <div class="row" itemscope itemtype="http://schema.org/Article">
-                    <div class="col-xs-12 col-md-6 col-xs-p-0" itemscope itemtype="http://health-lifesci.schema.org/PhysicalActivity">
+                <div class="row">
+                    <div class="col-xs-12 col-md-6 col-xs-p-0">
                         <div class="img-wrapper">
-                            <a itemprop="url" href="detail.html"
+                            <a href="detail.html"
                                title="What Gives With So Many Hard Scientists Being Hard-Core Endurance Runners?">
                                 <picture>
                                     <source srcset="dist/img/contents/run-xs.jpg 375w, dist/img/contents/run-sm.jpg 768w"
@@ -548,7 +558,7 @@
                             </a>
                         </div>
                     </div>
-                    <div class="col-xs-12 col-md-6" itemscope itemtype="http://health-lifesci.schema.org/PhysicalActivity">
+                    <div class="col-xs-12 col-md-6">
                         <header class="header">
                             <div class="row">
                                 <div class="col-xs-12">
@@ -580,7 +590,7 @@
                                             </a>
                                         </div>
                                         <div class="metadata">
-                                            <span class="author" rel="author" itemprop="author" itemtype="http://schema.org/Person">Sarah Scoles</span>,
+                                            <span class="author" rel="author">Sarah Scoles</span>,
                                             <time class="date" datetime="2016-09-13T01:29:06-04:00"
                                                   data-toggle="tooltip" data-placement="bottom"
                                                   title="12 Sept 2016, 01:29">
@@ -608,10 +618,10 @@
             </article>
 
             <article class="article">
-                <div class="row" itemscope itemtype="http://schema.org/Article">
-                    <div class="col-xs-12 col-md-6 col-xs-p-0" itemscope itemtype="https://schema.org/ShoppingCenter">
+                <div class="row">
+                    <div class="col-xs-12 col-md-6 col-xs-p-0">
                         <div class="img-wrapper">
-                            <a itemprop="url" href="detail.html"
+                            <a href="detail.html"
                                title="Machine-stitched: How online personal shoppers are beginning to offer in-store style experiences">
                                 <picture>
                                     <source srcset="dist/img/contents/shop-xs.jpg 375w, dist/img/contents/shop-sm.jpg 768w"
@@ -627,7 +637,7 @@
                             </a>
                         </div>
                     </div>
-                    <div class="col-xs-12 col-md-6" itemscope itemtype="https://schema.org/ShoppingCenter">
+                    <div class="col-xs-12 col-md-6">
                         <header class="header">
                             <div class="row">
                                 <div class="col-xs-12">
@@ -659,7 +669,7 @@
                                             </a>
                                         </div>
                                         <div class="metadata">
-                                            <span class="author" rel="author" itemprop="author" itemtype="http://schema.org/Person">Darrell Etherington</span>,
+                                            <span class="author" rel="author">Darrell Etherington</span>,
                                             <time class="date" datetime="2016-09-13T01:29:06-04:00"
                                                   data-toggle="tooltip" data-placement="bottom"
                                                   title="12 Sept 2016, 01:29">
@@ -685,8 +695,8 @@
             </article>
 
             <article class="article">
-                <div class="row" itemscope itemtype="http://schema.org/Article">
-                    <div class="col-xs-12 col-md-6 col-xs-p-0" itemscope itemtype="https://schema.org/trailer">
+                <div class="row">
+                    <div class="col-xs-12 col-md-6 col-xs-p-0">
                         <div class="video-wrapper embed-responsive embed-responsive-16by9">
                             <video preload="none" controls poster="dist/img/contents/force-awakens-md.jpg">
                                 <source src="http://movietrailers.apple.com/movies/lucasfilm/starwarstheforceawakens/swepvii-tlr2_i320.m4v"
@@ -694,7 +704,7 @@
                             </video>
                         </div>
                     </div>
-                    <div class="col-xs-12 col-md-6" itemscope itemtype="https://schema.org/trailer">
+                    <div class="col-xs-12 col-md-6">
                         <header class="header">
                             <div class="row">
                                 <div class="col-xs-12">
@@ -725,7 +735,7 @@
                                             </a>
                                         </div>
                                         <div class="metadata">
-                                            <span class="author" rel="author" itemprop="author" itemtype="http://schema.org/Person">Darrell Etherington</span>,
+                                            <span class="author" rel="author">Darrell Etherington</span>,
                                             <time class="date" datetime="2016-09-13T01:29:06-04:00"
                                                   data-toggle="tooltip" data-placement="bottom"
                                                   title="12 Sept 2016, 01:29">
@@ -745,8 +755,8 @@
             </article>
 
             <article class="article">
-                <div class="row" itemscope itemtype="http://schema.org/Article">
-                    <div class="col-xs-12 col-md-6 col-xs-p-0" itemscope itemtype="https://schema.org/Movie">
+                <div class="row">
+                    <div class="col-xs-12 col-md-6 col-xs-p-0">
                         <div class="video-wrapper embed-responsive embed-responsive-16by9">
                             <video preload="none" controls poster="dist/img/contents/rogue-one-md.jpg">
                                 <source src="http://movietrailers.apple.com/movies/lucasfilm/rogueoneastarwarsstory/rogue-one-a-star-wars-story-trailer-1_i320.m4v"
@@ -754,7 +764,7 @@
                             </video>
                         </div>
                     </div>
-                    <div class="col-xs-12 col-md-6" itemscope itemtype="https://schema.org/Movie">
+                    <div class="col-xs-12 col-md-6">
                         <header class="header">
                             <div class="row">
                                 <div class="col-xs-12">
@@ -785,7 +795,7 @@
                                             </a>
                                         </div>
                                         <div class="metadata">
-                                            <span class="author" rel="author" itemprop="author" itemtype="http://schema.org/Person">Darrell Etherington</span>,
+                                            <span class="author" rel="author">Darrell Etherington</span>,
                                             <time class="date" datetime="2016-09-13T01:29:06-04:00"
                                                   data-toggle="tooltip" data-placement="bottom"
                                                   title="12 Sept 2016, 01:29">
