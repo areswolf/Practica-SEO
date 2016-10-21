@@ -8096,3 +8096,32 @@ h4, h5, h6 {
   padding: 25px 0; }
   .comments-form form {
     margin-top: 25px; }
+
+
+
+.page-title .hr-breadcrumbs.divider-heder {
+  margin-top: 0;
+  margin-bottom: 10px;
+}
+.hr-breadcrumbs.divider-heder, .hr-breadcrumbs.divider-heder a {
+  color: #373a41;
+}
+.hr-breadcrumbs.divider-heder {
+  margin: 19px 0 29px 0;
+}
+.divider-heder, .single .divider-heder, .page .divider-heder {
+  margin: 25px 0 36px 0;
+}
+.hr-breadcrumbs {
+  overflow: hidden;
+}
+
+.page-title.title-center .wf-td {
+  display: block;
+  text-align: center;
+}
+.wf-td {
+  display: table-cell;
+  vertical-align: middle;
+}
+
