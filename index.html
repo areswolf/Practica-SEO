@@ -83,8 +83,13 @@
 <main>
     <div class="container">
         <div class="hr-breadcrumbs divider-heder">
-            <ol xmlns:v="http://rdf.data-vocabulary.org/#">
-                <li class="current">Inicio</li>
+            <ol class="breadcrumb" itemscope itemtype="http://schema.org/BreadcrumbList"> <!-- breadcrumb es una clase de bootstrap-->
+                <li class="current" itemprop="itemListElement" itemscope itemtype="http://schema.org/ListItem">
+                    <a itemprop="url" href="index.html">
+                        <span itemprop="name">Inicio</span>
+                    </a>
+                    <meta itemprop="position" content="1" />
+                </li>
             </ol>
         </div>
         <section class="articles">
